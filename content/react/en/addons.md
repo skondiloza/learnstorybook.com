@@ -38,17 +38,11 @@ yarn add @storybook/addon-knobs
 Register Knobs in your `.storybook/addons.js` file.
 
 ```javascript
-<<<<<<< HEAD
 // .storybook/addons.js
 
-import '@storybook/addon-actions/register';
-import '@storybook/addon-knobs/register';
-import '@storybook/addon-links/register';
-=======
 import "@storybook/addon-actions/register";
 import "@storybook/addon-knobs/register";
 import "@storybook/addon-links/register";
->>>>>>> b3db754... Update translation files to remove headings
 ```
 
 <div class="aside">
