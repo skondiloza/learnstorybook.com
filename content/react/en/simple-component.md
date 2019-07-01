@@ -224,7 +224,7 @@ Make sure your components render data that doesn't change, so that your snapshot
 With the [Storyshots addon](https://github.com/storybooks/storybook/tree/master/addons/storyshots) a snapshot test is created for each of the stories. Use it by adding a development dependency on the package:
 
 ```bash
-yarn add --dev @storybook/addon-storyshots react-test-renderer require-context.macro
+yarn add --dev @storybook/addon-storyshots react-test-renderer require-context.macro @babel/core babel-loader
 ```
 
 Then create an `src/storybook.test.js` file with the following in it:
